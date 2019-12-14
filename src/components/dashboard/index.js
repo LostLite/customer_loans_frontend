@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Materialize from "materialize-css";
-import moment from "moment";
 import ReactHTMLTableToExcel from 'react-html-table-to-excel';
 import apiCall from '../../helpers/axiosRequests';
 import './index.css';
@@ -15,7 +14,6 @@ class index extends Component {
         from: '',
         to: '',
         format: "yyyy-mm-dd",
-        formatMoment: 'yyyy-mm-dd',
         showLoading: true
     }
 
